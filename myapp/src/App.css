@@ -1,0 +1,59 @@
+.nxt-slides-app {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8fafc;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+/* Additional styling for the NxtSlidesApp component */
+
+.slide {
+  width: 25%;
+  margin-top: 20px;
+}
+
+.active-slide {
+  width: 60%;
+  height: 50%;
+  padding-left: 25px;
+}
+
+.nxt-slides-app h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nxt-slides-app p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.nxt-slides-app .slide-tabs-panel {
+  margin-bottom: 20px;
+}
+
+.nxt-slides-app .current-slide {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.nxt-slides-app .new-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+}

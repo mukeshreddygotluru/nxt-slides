@@ -1,0 +1,19 @@
+.new-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #dbeafe;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 8px;
+  margin-left: 25px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.plus {
+  width: 20px;
+  padding-right: 10px;
+}

@@ -1,0 +1,47 @@
+.slide-tabs-panel {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 60vh;
+}
+
+.slide-tab {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.slide-tab.active {
+  background-color: #dbeafe;
+  color: #000;
+}
+
+.tab-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tab {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png");
+  height: 100px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.heading-small {
+  font-size: 22px;
+  color: blue;
+  font-weight: 800;
+  font-family: "Roboto";
+}
+
+.description-small {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Roboto";
+}

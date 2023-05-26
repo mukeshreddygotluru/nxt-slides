@@ -1,0 +1,27 @@
+.current-slide {
+  margin-top: 20px;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png");
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 600px;
+  background-size: cover;
+}
+
+.heading {
+  font-size: 58px;
+  color: blue;
+  cursor: pointer;
+  font-weight: 800;
+  font-family: "Roboto";
+}
+
+.description {
+  font-size: 55px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "Roboto";
+}
